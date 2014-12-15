@@ -38,6 +38,7 @@ public class ListQueue {
 		} catch (IOException e) {
 			System.err.println("config load fail");
 			e.printStackTrace();
+			return;
 		}
 //		if(commandLine.hasOption("config")){
 //			name = commandLine.getOptionValue("config");
